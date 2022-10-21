@@ -1,0 +1,92 @@
+defaultPlacement: end
+fieldLayouts:
+  eab735ac-136c-454d-ad83-180ffbe3aa10:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: aca1f9fb-5f86-4725-a780-a1a340b7ba2d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8d5b78de-9b65-4f09-9c55-a01e3acbbfea # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 05bb1fb5-45f6-4863-a270-28321557bfef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 9ea6ad27-8e19-45ba-94a1-507e274856d6
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 1c27a358-8a8c-4336-80f4-01ed8eb2015a # Content Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d3b70e50-eecd-4bc3-8a90-593046ff85b1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 7e06e69e-7c9a-41bf-a20d-9385087990a4
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 745943b4-ec0e-46cb-920f-dbf5d7f7f123 # Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1a07c46-26c3-4edc-8571-de43cc178a09
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0e45ee4e-963f-4c56-8c71-9f2d21b2e604
+        userCondition: null
+handle: locations
+name: Locations
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54:
+    hasUrls: true
+    template: locations/_category.twig
+    uriFormat: 'locations/{slug}'
+structure:
+  maxLevels: 1
+  uid: a052a4af-6adb-4d48-9b22-67d15746b183

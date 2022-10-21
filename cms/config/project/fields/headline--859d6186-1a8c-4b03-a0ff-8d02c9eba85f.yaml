@@ -1,0 +1,19 @@
+columnSuffix: yhjmwjaf
+contentColumnType: text
+fieldGroup: 008ab323-c609-40e9-846c-647bea2b3034 # Homepage
+handle: headline
+instructions: 'Headline on the homepage.'
+name: Headline
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

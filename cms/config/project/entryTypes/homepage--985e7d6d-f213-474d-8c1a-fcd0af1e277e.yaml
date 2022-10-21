@@ -1,0 +1,79 @@
+fieldLayouts:
+  68625634-1ce5-4a06-9e0f-aeca7fd22cf7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ef036193-8acc-4af4-abdf-1feaa2ee1ac5 # Image
+            instructions: 'Hero image that sits behind the headline and tagline copy.'
+            label: 'Hero Background Image'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2bb5c1c2-4d4f-4322-80f8-76e6fd145501
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 859d6186-1a8c-4b03-a0ff-8d02c9eba85f # Headline
+            instructions: null
+            label: 'Homepage Headline'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b30d58e4-586e-40d9-8482-b6b44d20cc35
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e86a5355-7f6a-4990-a2bc-08dc3d3eaec0 # Tagline
+            instructions: null
+            label: 'Homepage Tagline'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34324901-3de9-4dcd-9c4f-051a4da1b848
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 488033db-d986-430d-ac84-91624d1c6145
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fd580023-dd0c-4876-8b95-f6ef5c359a19
+        userCondition: null
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: 89ab7b82-3fa9-4e71-bfd4-da3a93131052 # Homepage
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

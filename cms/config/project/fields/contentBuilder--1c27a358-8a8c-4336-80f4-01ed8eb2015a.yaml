@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 120729ba-bcb2-4ca8-bf8c-59561537d536 # Adventures
+handle: contentBuilder
+instructions: null
+name: 'Content Builder'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_contentbuilder}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -240,6 +240,7 @@
     <main>
       <div>
         <div class="relative">
+        {# Hero Section for Homepage #}
           <div class="max-w-full">
             <div class="relative sm:overflow-hidden">
               <div class="absolute inset-0">
@@ -258,15 +259,12 @@
                 <h1
                   class="text-center text-5xl font-extrabold tracking-tight md:5xl sm:text-7xl lg:text-7xl"
                 >
-                  <span class="block text-white">Get out and</span>
-                  <span class="block text-white">Explore the Trails</span>
+                  <span class="block text-white">{{ entry.headline }}</span>
                 </h1>
                 <p
                   class="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl"
                 >
-                  Fun running vacations and adventures for runners of all
-                  abilities. Wouldn't you rather run than sit at a pool and
-                  drink?
+                  {{ entry.tagline }}
                 </p>
               </div>
             </div>

@@ -1,0 +1,75 @@
+field: 1c27a358-8a8c-4336-80f4-01ed8eb2015a # Content Builder
+fieldLayouts:
+  89cd79ff-3a7a-4e83-b1c1-8905366f9e25:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f1a1baba-ccba-473d-978a-cafe0a6820c9 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64d58ea2-3023-4dff-9643-f97b2d150e5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 77489684-b0ed-4dd6-a9a1-478628f95b59 # URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb1a007b-f444-45dc-a3fa-5013d86079e8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6e1ed186-abff-4fd0-b4b6-dfe9646633f7
+        userCondition: null
+fields:
+  77489684-b0ed-4dd6-a9a1-478628f95b59: # URL
+    columnSuffix: smcxwejt
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: ctaURL
+    instructions: null
+    name: URL
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+        - tel
+        - email
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  f1a1baba-ccba-473d-978a-cafe0a6820c9: # Text
+    columnSuffix: qghdotyi
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cta
+name: CTA
+sortOrder: 2

@@ -1,0 +1,19 @@
+columnSuffix: giiczdfa
+contentColumnType: text
+fieldGroup: 8931ace9-dc4c-4249-a7b9-f5e66f570fed # Common
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

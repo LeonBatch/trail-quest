@@ -1,4 +1,22 @@
-dateModified: 1659389200
+dateModified: 1666324887
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      disabled: false
+      key: 'section:ac27abc7-b338-40f4-94f7-ac5913e23a79' # Adventures
+      tableAttributes:
+        - 'field:c2c1c5c4-cc3a-4b6d-83f2-1d068f270092' # Location
+        - link
+      type: native
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -13,9 +31,40 @@ fs:
     url: '@assetsUrl/assets/site'
 meta:
   __names__:
+    0c5f1f26-69f7-431a-8dae-8be084daa705: CTA # CTA
+    1c27a358-8a8c-4336-80f4-01ed8eb2015a: 'Content Builder' # Content Builder
+    2dd4b78d-c042-4b4f-bf3c-2e24737c2a28: About # About
+    5b5029e3-3d7b-442f-bfcd-10886f4d53da: Locations # Locations
     5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    7aca40ff-a30b-405f-9c6f-93f6942f6a0f: About # About
+    008ab323-c609-40e9-846c-647bea2b3034: Homepage # Homepage
+    8d5b78de-9b65-4f09-9c55-a01e3acbbfea: Description # Description
     53ed4ec6-af5c-42a2-afad-80c9a997d531: 'Public Schema' # Public Schema
+    89ab7b82-3fa9-4e71-bfd4-da3a93131052: Homepage # Homepage
+    859d6186-1a8c-4b03-a0ff-8d02c9eba85f: Headline # Headline
+    985e7d6d-f213-474d-8c1a-fcd0af1e277e: Homepage # Homepage
+    0998c089-9c97-4688-a381-dac660081d11: Stats # Stats
+    8931ace9-dc4c-4249-a7b9-f5e66f570fed: Common # Common
+    120729ba-bcb2-4ca8-bf8c-59561537d536: Adventures # Adventures
+    745943b4-ec0e-46cb-920f-dbf5d7f7f123: Images # Images
+    8647721a-dcfd-44e1-b957-645948b6e71e: Text # Text
+    77489684-b0ed-4dd6-a9a1-478628f95b59: URL # URL
+    a6865af4-d8a1-4b40-b06a-9d1bc210f7c3: 'Rich Text' # Rich Text
+    ac27abc7-b338-40f4-94f7-ac5913e23a79: Adventures # Adventures
+    c2c1c5c4-cc3a-4b6d-83f2-1d068f270092: Location # Location
+    c27a724e-5ae8-4587-96bf-89b4b12a8f84: FAQs # FAQs
+    cea4cb7f-a064-46f3-9bf1-8a78a4b6e4df: Stat # Stat
+    d6563d9c-c524-4d54-8524-e5c566e88150: 'Rich Text' # Rich Text
+    e4ae73a6-d502-4c12-9e83-25a5b3cef45a: FAQs # FAQs
+    e48d76f1-b392-4e8e-8123-b4c040e58ef7: Default # Default
+    e86a5355-7f6a-4990-a2bc-08dc3d3eaec0: Tagline # Tagline
+    ef036193-8acc-4af4-abdf-1feaa2ee1ac5: Image # Image
+    f1a1baba-ccba-473d-978a-cafe0a6820c9: Text # Text
 plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   vite:
     edition: standard
     enabled: true
